@@ -13,6 +13,7 @@ const createWindow = () => {
             devTools: true,
             contextIsolation: false,
             nodeIntegration: true,
+            webSecurity:false
            
             //允许html页面上的javascipt代码访问nodejs 环境api代码的能力（与node集成的意思）
         }
